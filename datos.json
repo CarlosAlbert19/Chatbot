@@ -1,0 +1,151 @@
+{
+    "intentos":[
+        {
+            "etiqueta":"saludo",
+            "patron":[
+                "Hola",
+                "Saludos",
+                "Como estas",
+                "Hay alguien ahi",
+                "Buen dia",
+                "Buenos dias",
+                "Buenas tardes",
+                "Buenas noches",
+                "Que tal",
+                "Que pasa"
+            ],
+            "respuestas":[
+                "Hola",
+                "Un gusto",
+                "Hola, gracias por pasarte por aqui",
+                "Buen dia, humano",
+                "Bienvenido"
+            ]
+        },
+        {
+            "etiqueta":"despedida",
+            "patron":[
+                "Adios",
+                "Nos vemos despues",
+                "Nos vemos luego",
+                "Hasta luego",
+                "Hasta la proxima",
+                "Bye",
+                "Chau",
+                "Ahi nos vemos",
+                "Me tengo que ir"
+            ],
+            "respuestas":[
+                "Adios",
+                "Hasta pronto",
+                "Espero volverte a ver pronto",
+                "Que estes bien",
+                "Nos vemos en la proxima ocasion",
+                "Hasta pronto",
+                "Cuidate",
+                "Te cuidas",
+                "Espero verte por aquí de nuevo",
+                "Disfrute mucho tu estancia, nos vemos"
+            ]
+        },
+        {
+            "etiqueta":"agradecimiento",
+            "patron":[
+                "Gracias",
+                "Muchas gracias",
+                "Te lo agradezco",
+                "Estoy agradecido",
+                "Me ayudaste mucho",
+                "Gracias por el apoyo"
+            ],
+            "respuestas":[
+                "Por nada",
+                "No tienes que agradecer",
+                "Es mi trabajo, me gusta ayudarte",
+                "No hay de que",
+                "Cuando quieras",
+                "Siempre puedes confiar en GreenBot"
+            ]
+        },
+        {
+            "etiqueta":"reciclaje",
+            "patron":[
+                "En que contenedor va el plastico",
+                "En que contenedor va el papel",
+                "En que contenedor va el metal",
+                "En que contenedor va el carton",
+                "En que contenedor va el vidrio",
+                "En que contenedor va un residuo organico",
+                "En que contenedor va un residuo fuera de lo comun",
+                "Este residuo se puede reciclar"
+            ],
+            "respuestas":[
+                "Este residuo va en el contenedor amarillo que es para plastico",
+                "Este residuo va en el azul que es para carton y papel",
+                "Este residuo va en el verde que es para vidrio",
+                "Este residuo va en el cafe que es para residuos organicos",
+                "Este residuo va en el gris que es para metal",
+                "Este residuo va en el rojo que es para residuos especiales",
+                "Este residuo SI se puede reciclar",
+                "Este residuo NO se puede reciclar"
+            ]
+        },
+        {
+            "etiqueta":"consejos",
+            "patron":[
+                "Que puedo hacer con mi botella de plastico",
+                "Que puedo hacer con mi recipiente de vidrio",
+                "Que puedo hacer con mi caja de carton",
+                "Que puedo hacer con mi lata de metal",
+                "Que puedo hacer con mis restos de comida",
+                "Que puedo hacer con mi cabello cortado",
+                "Que puedo hacer con mi hoja de papel que ya no necesito"
+
+            ],
+            "respuestas":[
+                "Puedes utilizar una botella de plastico cortandola por la mitad y haciendo una bonita maceta con ella para ponerla en algun lugar de tu casa",
+                "Puedes utilizar un recipiente de vidrio para guardar cosas, podrias guardar tus monedas dentro del recipiente, asi siempre puedes ver tu progreso de ahorros",
+                "Puedes utilizar un recipiente de vidrio para guardar alimentos en el refrigerador, asi cuando abras la puerta del refirgerador podras ver que cosas hay dentro",
+                "Puedes utilizar una caja de carton para realizar manualidades, corta el carton a piezas que puedas necesitar y puedes crear figuras de carton",
+                "Puedes utilizar una lata de metal para guardar tus lapices, plumas y mas utiles escolares, incluso puedes decorlo a tu estilo para tener el mejor lapicero",
+                "Puedes utilizar los restos de comida para hacer composta para tus plantas que tengas siempre y cuando sean restos de frutas y verduras, no comida procesada",
+                "Puedes utilizar cabello que te acaban de cortar para realizar pelucas o incluso bigotes y barba falsos",
+                "Puedes utilizar una hoja de papel para imprimir algo que vayas a recortar, siempre y cuando el otro lado de la hoja de papel este limpio"
+            ]
+        },
+        {
+            "etiqueta":"alternativas",
+            "patron":[
+                "Como puedo reducir la emision de residuos",
+                "Que alternativas hay para no producir tantos residuos",
+                "Quiero evitar crear residuos",
+                "No quiero contaminar con residuos",
+                "Como puedo ayudar al medio ambiente",
+                "Quiero contribuir a salvar a la naturaleza"
+            ],
+            "respuestas":[
+                "Cuando vayas al supermercado lleva bolsas de tela en lugar de usar las bolsas de plastico",
+                "En lugar de comprar varias botellas de plastico de agua o cualquier otro liquido consumible, solo usa una botella y rellenala",
+                "No tires restos de comida a la basura sin mas, puedes guardarla para despues o darsela a alguien mas",
+                "Utiliza productos reciclados o biodegradables para ser mas amigable con el medio ambiente",
+                "No tires tapas de botellas o los anillos de las latas de refresco, guardarlas y llevalas a un centro de reciclaje"
+            ]
+        },
+        {
+            "etiqueta":"adivinanzas",
+            "patron":[
+                "Estoy aburrido",
+                "Que mas puedes hacer",
+                "Puedes decir algo entretenido",
+                "Quiero poner a prueba mis conocimientos",
+                "Tienes algo mas que decir"
+            ],
+            "respuestas":[
+                "Ahi te va una divinanza, una vez fui una guia telefonica, y despues un calendario, si me echas en el contenedor azul, mañana sere un diario, el periodico",
+                "Ahi te va una divinanza, si quieres que mermelada vuelva a tener, en el contenedor verde me debes poner, un tarro",
+                "Ahi te va una divinanza, cuando me compras mi interior esta muy blanquito, tras usarme estoy pintado enterito, en el contenedor azul me tienes que depositar, el cuaderno",
+                "Ahi te va una divinanza, son pequeñitas y de metal, con ellas los juguetes pueden funcionar, y si no las separamos el mundo ensuaciaremos, las baterias"
+            ]
+        }
+    ]
+}
